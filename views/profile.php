@@ -22,6 +22,6 @@ $user = new User($email);
         <li>Email : <?php echo $user->getEmail(); ?> </li>
     </ul>
 
-    <a href="<?php echo BASE_URL; ?> /logout" > Se deconnecter</a>
+    <a href="<?php echo BASE_URL; ?> /logout"> Se deconnecter</a>
 </body>
 </html>
